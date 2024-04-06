@@ -16,7 +16,8 @@ webpack({
   },
   resolve: {
     alias: {
-      'gf': path.resolve(__dirname, '../npm/index.js')
+      'gf': path.resolve(__dirname, '../npm/gf.js'),
+      'demo': path.resolve(__dirname, '../npm/demo.js'),
     }
   },
   plugins: [

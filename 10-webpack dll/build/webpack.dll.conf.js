@@ -3,7 +3,7 @@ const webpack = require('webpack')
 
 module.exports = {
   entry: {
-    gfDll: ['gf']
+    gfDll: ['gf','demo']
   },
   output: {
     path: path.join(__dirname, '../dll'),
@@ -12,7 +12,8 @@ module.exports = {
   },
   resolve: {
     alias: {
-      'gf': path.resolve(__dirname, '../npm/index.js')
+      'gf': path.resolve(__dirname, '../npm/gf.js'),
+      'demo': path.resolve(__dirname, '../npm/demo.js'),
     }
   },
   plugins: [

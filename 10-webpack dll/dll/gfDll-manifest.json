@@ -1,1 +1,1 @@
-{"name":"gfDll","content":{"./npm/index.js":{"id":1,"meta":{"harmonyModule":true},"exports":["getGf","getAge"]}}}
+{"name":"gfDll","content":{"./npm/gf.js":{"id":1,"meta":{"harmonyModule":true},"exports":["getGf","getAge"]},"./npm/demo.js":{"id":2,"meta":{"harmonyModule":true},"exports":["getDemo","getDemoText"]}}}
