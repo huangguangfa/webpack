@@ -1,0 +1,16 @@
+{
+  "name": "10-webpackdll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dll": "rm -rf dll/ && webpack --config build/webpack.dll.conf.js",
+    "build": "node build/build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "3.12.0"
+  }
+}
